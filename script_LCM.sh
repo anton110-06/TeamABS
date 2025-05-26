@@ -13,6 +13,6 @@ gcd() {
 		x=$temp
 	done
 	echo "$x"
-
+}
 lcm=$(( ($1 * $2) / $(gcd "$1" "$2") ))
 echo "$lcm"
